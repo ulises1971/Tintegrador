@@ -1,0 +1,97 @@
+
+.navbar {
+    background-color: #353a40;
+    justify-content: flex-end; 
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.img-fluid {
+    width: 100%;
+    filter: brightness(0.4);
+}
+.card-text{
+    line-height: 0.8 !important;
+}
+.card1 {
+    margin-left: 4rem;
+
+}
+.margen-derecho{
+    margin-right: 4rem;
+}
+.card3{
+    margin-right: 8rem;
+
+}
+.btn-bd-primary{
+    color: white;
+    border-color: white;
+
+}
+.btn-bd-primary2{
+    background-color: #29a744;
+    color: white;
+}
+  
+
+.rounded{
+    width: 100%;
+
+}
+.card-borde{
+    border: none;
+}
+.btn-pequeños{
+    font-size: 11px;
+    padding: 1px 2px;
+    font-weight: bold;
+}
+
+
+.cardHonolulu{
+    background-color: #25262b;
+    height: 400px;
+}
+.card-textp {
+    line-height: 1.5;
+}
+.btnultimo{
+    background-color: #96c93e;
+    border: #96c93e;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+.form-width{
+    width: 21%;
+    margin: 0.3rem;
+    
+}
+
+
+footer{
+    height: 120px;
+     background-color: #1d4054;
+     display: flex;
+     flex-direction: row;
+    }
+    
+    footer a {
+    text-decoration: none;
+    }
+    
+    @media screen and (max-width:700px){
+    
+      footerLink{
+        flex-direction:row;
+         }
+    }
+
